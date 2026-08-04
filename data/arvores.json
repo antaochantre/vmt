@@ -1,0 +1,7 @@
+[
+  {"id":"VMT-ARB-001","nome":"Guardião","especie":"Cipreste","categoria":"ornamental","parcela":"B · 01","estado":"Disponível","plantacao":"2026","valor_cve":4000,"periodo":"ano","token_nft":null},
+  {"id":"VMT-ARB-002","nome":"Sol da Corda","especie":"Girassol","categoria":"ornamental","parcela":"Jardim · 05","estado":"Disponível","plantacao":"2026","valor_cve":2500,"periodo":"ciclo","token_nft":null},
+  {"id":"VMT-ARB-003","nome":"Luzia","especie":"Limoeiro","categoria":"fruto","parcela":"A · 12","estado":"Disponível","plantacao":"2026","valor_cve":3500,"periodo":"ano","token_nft":null},
+  {"id":"VMT-ARB-004","nome":"Teresa","especie":"Macieira","categoria":"fruto","parcela":"A · 18","estado":"Disponível","plantacao":"2026","valor_cve":4000,"periodo":"ano","token_nft":null},
+  {"id":"VMT-ARB-005","nome":"Futuro","especie":"Mangueira","categoria":"fruto","parcela":"D · 04","estado":"Nova plantação","plantacao":"2026","valor_cve":4500,"periodo":"ano","token_nft":null}
+]
