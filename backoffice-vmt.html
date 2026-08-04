@@ -10,7 +10,7 @@
     *{box-sizing:border-box} body{margin:0;min-height:100vh;background:var(--creme);color:var(--texto);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
     button{font:inherit}.app{min-height:100vh;display:grid;grid-template-columns:280px 1fr}
     .sidebar{position:sticky;top:0;height:100vh;padding:26px 18px 20px;display:flex;flex-direction:column;color:#fff;background:linear-gradient(155deg,var(--verde),var(--verde2))}
-    .brand{display:flex;align-items:center;gap:13px;padding:0 10px 28px}.mark{width:51px;height:51px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.45);border-radius:50%;font:700 16px Georgia,serif;color:#fff}.brand strong{display:block;font:600 18px/1.2 Georgia,serif}.brand small{color:#bed0c4}
+    .brand{display:flex;justify-content:center;padding:0 6px 24px}.brand img{display:block;width:min(100%,220px);height:128px;object-fit:contain;filter:drop-shadow(0 8px 18px rgba(0,0,0,.2))}
     .label{margin:0 12px 9px;color:#9fbaaa;font-size:10px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.menu{display:grid;gap:5px}
     .menu button{width:100%;display:flex;align-items:center;gap:12px;padding:11px 14px;border:0;border-radius:11px;color:#dce7e0;background:transparent;text-align:left;cursor:pointer;transition:.2s}
     .menu button:hover,.menu button.active{color:#fff;background:rgba(255,255,255,.13)}.menu button.active{box-shadow:inset 3px 0 var(--terra)}
@@ -27,7 +27,7 @@
 <body>
   <div class="app">
     <aside class="sidebar" aria-label="Navegação principal">
-      <div class="brand"><div class="mark">VMT</div><div><strong>Vila Maria Teresa</strong><small>Área de gestão</small></div></div>
+      <div class="brand"><img src="VMT_Nome_Final.png" alt="Vila Maria Teresa"></div>
       <p class="label">Menu principal</p>
       <nav class="menu">
         <button class="active" data-page="Dashboard"><span class="icon">⌂</span>Dashboard</button>
